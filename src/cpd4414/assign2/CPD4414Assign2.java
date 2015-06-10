@@ -17,17 +17,87 @@
 
 package cpd4414.assign2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Len Payne <len.payne@lambtoncollege.ca>
  */
 public class CPD4414Assign2 {
-
+////static int  custid;
+ //  static String custname;
+  //static  String productname;
+ // static  int quantity;
+   //static  String notes;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     /* System.out.println("1.Enter you orders\n"
+                + "2.See your order");
+        Scanner in=new Scanner(System.in);
+        int choice=in.nextInt();
+        switch(choice)
+        {
+            case 1:
+                placeOrders();
+            case 2:
+               // seeorders();
+                
+        }
+    }
+        public static void placeOrders()
+{
+    Scanner in= new Scanner(System.in);
+     System.out.println("enter your customer  id");
+     try{
+    custid=in.nextInt();
+    in.nextLine();
+     }
+     catch(Exception e)
+     {
+         System.out.println("We got some problem:" +e);
+     }
+    System.out.println("enter your name");
+    
+    try{
+    custname=in.nextLine();
+    }
+     catch(Exception e)
+     {
+         System.out.println("We got some problem:" +e);
+     }
+    System.out.println("enter product name you wanna purchase");
+    
+    try
+    {
+     productname=in.nextLine();
+     
+    }
+      catch(Exception e)
+     {
+         System.out.println("We got some problem:" +e);
+     }
+     System.out.println("enter product quantity");
+     try{
+         
+     
+      quantity=in.nextInt();
+      in.nextLine();
+     }
+      catch(Exception e)
+     {
+         System.out.println("We got some problem:" +e);
+     }
+       System.out.println("enter some notes");
+       try{
+            notes=in.nextLine();
+       }
+       catch(Exception e)
+     {
+         System.out.println("We got some problem:" +e);
+     }*/
+   
     }
     
 }
